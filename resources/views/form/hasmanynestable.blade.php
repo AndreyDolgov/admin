@@ -14,7 +14,7 @@
             <li class="dd-item" data-id="{{$pk}}">
                 <span class="dd-content-view"><i class="fa fa-bars"></i></span>
                 <div class="dd-handle" data-id="{{$pk}}">
-                    {!! $form->fields()[1]->render()!!}
+                    {!! $form->fields()[0]->render()!!}
                 </div>
                 <div class="dd-content collapse" data-id="{{$pk}}">
                     <div class="has-many-{{$column}}-form fields-group ">
