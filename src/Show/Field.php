@@ -73,7 +73,7 @@ class Field implements Renderable
      * @var array
      */
     protected $fileTypes = [
-        'image'      => 'png|jpg|jpeg|tmp|gif',
+        'image'      => 'svg|png|jpg|jpeg|tmp|gif',
         'word'       => 'doc|docx',
         'excel'      => 'xls|xlsx|cvs',
         'powerpoint' => 'ppt|pptx',

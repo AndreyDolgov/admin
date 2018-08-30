@@ -94,7 +94,7 @@ trait UploadField
         }
 
         $this->options([
-            //'initialPreview'        => $this->preview(),
+            'initialPreview'       => $this->preview(),
             'initialPreviewConfig' => $this->initialPreviewConfig(),
         ]);
     }
