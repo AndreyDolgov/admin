@@ -70,6 +70,7 @@ use Symfony\Component\HttpFoundation\Response;
  * @method Field\MultipleFile   multipleFile($column, $label = '')
  * @method Field\Captcha        captcha($column, $label = '')
  * @method Field\Listbox        listbox($column, $label = '')
+ * @method Field\MultipleSelectFilters  multipleSelectFilters($column, $label = '')
  */
 class Form implements Renderable
 {
@@ -1318,6 +1319,7 @@ class Form implements Renderable
             'multipleImage'  => Field\MultipleImage::class,
             'captcha'        => Field\Captcha::class,
             'listbox'        => Field\Listbox::class,
+            'multipleSelectFilters'    => Field\MultipleSelectFilters::class,
         ];
 
         foreach ($map as $abstract => $class) {
