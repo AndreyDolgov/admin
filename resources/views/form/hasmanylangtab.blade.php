@@ -15,7 +15,7 @@
 </style>
 <div id="has-many-{{$column}}" class="nav-tabs-custom has-many-{{$column}}">
     <div class="row header">
-        <div class="col-md-12"><h4 class="pull-right">{{ trans('admin::lang.'. $label .'_info') }}</h4></div>
+        <div class="col-md-12"><h4 class="pull-right">{{ $label }}</h4></div>
     </div>
 
     <hr style="margin-top: 0px;">
@@ -25,7 +25,7 @@
         @foreach(Config::get('app.locales') as $key => $locale)
             <li class="@if ($key == 0)) active @endif ">
                 <a href="#{{ $relationName . '_' . $key }}" data-toggle="tab">
-                    {{ trans('admin::lang.'. $locale) }}
+                    {{ $locale }}
                 </a>
 
             </li>
