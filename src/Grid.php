@@ -955,6 +955,7 @@ class Grid
             'switchGroup' => Displayers\SwitchGroup::class,
             'select'      => Displayers\Select::class,
             'image'       => Displayers\Image::class,
+            'imageClick'  => Displayers\ImageClick::class,
             'label'       => Displayers\Label::class,
             'button'      => Displayers\Button::class,
             'link'        => Displayers\Link::class,
